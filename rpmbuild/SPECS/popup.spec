@@ -1,40 +1,25 @@
 Name:           popup
 Version:        1.0        
-Release:        1%{?dist}
+Release:        1
 Summary:        Generating popup messages
 
-License:        GPL-2
-URL:            https://github.com/Chakshita04/%{name}
+License:        GPLv2
+URL:            http://theurbanpenguin.com
 Source0:        %{name}-%{version}.tar.gz
-
-BuildRequires:  gcc
-
+BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 %description
 Popup is used to generate messages
-
+Author:
+Chakshita
 %prep
-%setup -q
-
-
+%setup
 %build
-%configure
-%make_build
-
+make
 
 %install
-mkdir -p "$RPM_BUILD_ROOT"
-cp -R * "$RPM_BUILD_ROOT"
-
-%clean
-rm -rf $RPM_BUILD_ROOT
-%make_install
-
+make install
 
 %files
-%doc README LICENSE CHANGELOG
-/usr/bin/%{name}
+%defattr(4755,root,root,0755)
+/usr/bin/popup
 
-
-%changelog
-* Sun Apr 26 2020 Chakshita <chakshitamalhotra04@gmail.com> 1.0-1
-- Initial package for Fedora.
