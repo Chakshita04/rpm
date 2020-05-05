@@ -1,4 +1,0 @@
-%dir /usr/lib/debug
-%dir /usr/lib/debug/usr
-%dir /usr/lib/debug/usr/bin
-/usr/lib/debug/usr/bin/icecast-2.4.4-0.x86_64.debug

@@ -7,6 +7,7 @@ License:        GPLv2
 URL:            http://theurbanpenguin.com
 Source0:        %{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
+
 %description
 Popup is used to generate messages
 Author:

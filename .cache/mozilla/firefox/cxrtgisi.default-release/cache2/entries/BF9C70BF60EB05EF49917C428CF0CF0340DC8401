@@ -1,0 +1,1037 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Tree - rpms/meson - src.fedoraproject.org</title>
+        <link rel="shortcut icon" type="image/vnd.microsoft.icon"
+        href="/theme/static/favicon.ico?version=5.9.1"/>
+    <link href="/theme/static/fedora-bootstrap-1.3.0/fedora-bootstrap.min.css?version=5.9.1"
+        type="text/css" rel="stylesheet" />
+    <link href="/theme/static/fonts/fonts.css?version=5.9.1"
+        rel="stylesheet" type="text/css" />
+    <link href="/theme/static/fonts/hack_fonts/css/hack-extended.min.css?version=5.9.1"
+        type="text/css" rel="stylesheet" />
+    <link href="/theme/static/theme.css?version=5.9.1"
+        type="text/css" rel="stylesheet" />
+
+    <link type="text/css" rel="stylesheet" nonce="WaiVIs5dhPuoyFSUWfiTDHv3h" href="/static/vendor/font-awesome/font-awesome.css?version=5.9.1"/>
+    <link type="text/css" rel="stylesheet" nonce="WaiVIs5dhPuoyFSUWfiTDHv3h" href="/static/pagure.css?version=5.9.1"/>
+<link nonce="WaiVIs5dhPuoyFSUWfiTDHv3h" rel="stylesheet" href="/static/vendor/highlight.js/styles/github.css?version=5.9.1"/>
+<link nonce="WaiVIs5dhPuoyFSUWfiTDHv3h" rel="stylesheet" href="/static/vendor/highlightjs-line-numbers/highlightjs-line-numbers.min.css?version=5.9.1"/>
+<style nonce="WaiVIs5dhPuoyFSUWfiTDHv3h">
+  .hljs {
+    background: #fff;
+  }
+</style>
+  </head>
+  <body id="home">
+    
+    <!-- start masthead -->
+    <nav class="navbar navbar-light masthead p-0 navbar-expand">
+      <div class="container">
+        <a href="/" class="navbar-brand">
+        <img height=40px src="/theme/static/pagure-logo.png?version=5.9.1"
+             alt="pagure Logo" id="pagureLogo"/>
+        </a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="btn btn-primary" href="/login/?next=https://src.fedoraproject.org/rpms/meson/blob/master/f/meson.spec">Log In</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- close masthead-->
+
+    <div class="bodycontent">
+
+
+<div class="bg-light border border-bottom pt-3">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-6">
+        <div class="row">
+        <div class="col-auto pr-0">
+            <h3>
+<i class="fa fa-archive text-muted"></i></h3>
+        </div>
+        <div class="col-auto pl-2">
+            <h3 class="mb-0">
+<a href="/projects/rpms/%2A">rpms</a>&nbsp;/&nbsp;<a href="/rpms/meson"><strong>meson</strong></a>
+            </h3>
+        </div>
+        </div>
+      </div>
+      <div class="col-6 text-right">
+        <div class="btn-group">
+        <div class="btn-group">
+        <a href="#"
+            class="btn btn-sm dropdown-toggle btn-outline-primary"
+            data-toggle="dropdown" id="watch-button">
+          <i class="fa fa-clone fa-fw"></i>
+          <span>Clone</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right">
+          <div class="m-3" id="source-dropdown" class="pointer">
+            <div>
+              <h5><strong>Source Code</strong></h5>
+
+              <div class="form-group">
+                <div class="input-group input-group-sm">
+                  <div class="input-group-prepend"><span class="input-group-text">GIT</span></div>
+                  <input class="form-control bg-white select-on-focus" type="text" value="https://src.fedoraproject.org/rpms/meson.git" readonly>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<ul class="nav nav-tabs nav-small border-bottom-0">
+  <li class="nav-item mr-2 text-dark">
+    <a class="nav-link active" href="/rpms/meson">
+        <i class="fa fa-code fa-fw text-muted"></i>
+        <span class="d-none d-md-inline">Source</span>
+    </a>
+  </li>
+
+    <li class="nav-item mr-2 text-dark">
+        <a class="nav-link" href="https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&classification=Fedora&product=Fedora&product=Fedora EPEL&component=meson">
+          <i class="fa fa-fw text-muted fa-exclamation-circle"></i>
+          <span class="d-none d-md-inline">Issues&nbsp;</span>
+          <span class="fa fa-external-link"></span>
+        </a>
+    </li>
+
+    <li class="nav-item mr-2 text-dark">
+      <a class="nav-link" href="/rpms/meson/pull-requests">
+          <i class="fa fa-fw text-muted fa-arrow-circle-down"></i>
+          <span class="d-none d-md-inline">Pull Requests&nbsp;</span>
+          <span class="badge badge-secondary py-0 d-none d-md-inline">
+            0
+          </span>
+      </a>
+    </li>
+
+
+    <li class="nav-item mr-2 text-dark">
+      <a class="nav-link" href="/rpms/meson/stats">
+          <i class="fa fa-line-chart fa-fw text-muted"></i>
+          <span class="d-none d-md-inline">Stats</span>
+      </a>
+    </li>
+
+
+</ul>
+  </div>
+</div>
+
+<div class="container pt-5 repo-body-container">
+  <div class="row">
+    <div class="col-2">
+<nav class="nav nav-tabs nav-sidetabs flex-column">
+  <a class=
+      "nav-link nowrap
+"
+      href="/rpms/meson">
+      <i class="fa fa-home text-muted fa-fw"></i>&nbsp;<span class="d-none d-md-inline">Overview</span>
+  </a>
+  <a class=
+    "nav-link nowrap
+ active"
+    href="/rpms/meson/tree/master">
+    <i class="fa fa-file-code-o text-muted fa-fw"></i>&nbsp;Files
+  </a>
+  <a class=
+    "nav-link nowrap
+"
+    href="/rpms/meson/commits/master">
+    <i class="fa fa-list-alt text-muted fa-fw" data-glyph="spreadsheet"></i>&nbsp;Commits
+  </a>
+  <a class=
+    "nav-link nowrap
+"
+    href="/rpms/meson/branches?branchname=master">
+    <i class="fa fa-random text-muted fa-fw"></i>&nbsp;Branches
+  </a>
+  <a class=
+    "nav-link nowrap
+"
+    href="/rpms/meson/forks">
+    <i class="fa fa-code-fork text-muted fa-fw"></i>&nbsp;Forks
+  </a>
+  <a class=
+    "nav-link nowrap
+"
+    href="/rpms/meson/releases">
+    <i class="fa fa-tags text-muted fa-fw"></i>&nbsp;Releases
+  </a>
+
+  <div class="col-xs-2 line-height-1"></div>
+  <h6>Monitoring status:</h6>
+  <div class="btn-group">
+    <button title="Monitoring status" class="btn btn-sm btn-outline-primary disabled"
+        id="monitoring-button">
+      <i id="monitoring-icon" class="fa fa-fw fa-eye"></i>
+      <span id="monitoring-label" class="fa fa-circle-o-notch fa-spin fa-1x fa-fw"></span>
+    </button>
+  </div>
+
+
+  <div class="pt-3">
+    <div class="col-xs-2 line-height-1">
+    <h6>Bugzilla Assignee:</h6>
+      <dl>
+        <dt>Fedora: </dt>
+        <dd id="fedora_assignee_txt">
+        ignatenkobrain
+        </dd>
+        <dt>EPEL: </dt>
+        <dd id="epel_assignee_txt">
+        ignatenkobrain
+        </dd>
+      </dl>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal_assignee" tabindex="-1"
+          role="dialog" aria-labelledby="Bugzilla assignee" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Bugzilla Assignee</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+          </button>
+        </div>
+        <form id="change_assignees">
+          <div class="modal-body">
+            <label for="fedora_assignee">Fedora</label>
+            <input title="Default assignee for Fedora in bugzilla - Empty input resets to default"
+              class="form-control" name="fedora_assignee" id="fedora_assignee" value="ignatenkobrain"/>
+            <label for="epel_assignee">EPEL</label>
+            <input title="Default assignee for EPEL in bugzilla (if applicable) - Empty input resets to default"
+              class="form-control" name="epel_assignee" id="epel_assignee" value="ignatenkobrain" />
+            <p class="pt-2">
+              These two fields allow to specify a different default assignee for ticket opened against
+              this package in bugzilla. Note: The EPEL field is
+              always displayed for packages in the 'rpms' namespace regardless of whether it
+              is used in bugzilla or not.            </p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" title="Update bugzilla overrides" id="reset_assignees">
+               Reset to defaults
+            </button>
+            <button class="btn btn-primary" type="submit" title="Update bugzilla overrides" id="update_assignees">
+               Update
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" nonce="WaiVIs5dhPuoyFSUWfiTDHv3h">
+    window.addEventListener('load', function() {
+      set_up_monitoring = function(status){
+        var _label = "Disabled"
+        if (status === "monitoring") {
+          _label = "Monitoring";
+          $("#monitoring-icon").attr("class", "fa fa-fw fa-eye")
+        } else if (status === "monitoring-with-scratch") {
+          _label = "Scratch builds"
+          $("#monitoring-icon").attr("class", "fa fa-fw fa-eye")
+        } else {
+          $("#monitoring-icon").attr("class", "fa fa-fw fa-eye-slash")
+        }
+
+        $("#monitoring-label").text(_label);
+        $("#monitoring-label").removeClass("fa fa-circle-o-notch fa-spin fa-1x fa-fw");
+      }
+
+      $.ajax({
+        url: "/_dg/anitya/rpms/meson",
+        type: 'GET',
+        dataType: 'json',
+        success: function(res) {
+          console.log(res);
+          set_up_monitoring(res.monitoring)
+        }
+      });
+
+
+      $("#reset_assignees").on('click', function(){
+        $('#fedora_assignee').val('');
+        $('#epel_assignee').val('');
+        $("#change_assignees").submit();
+        return false;
+      });
+
+      $("#change_assignees").on('submit',  function(){
+        $('html').css('cursor', 'progress');
+        $('#reset_assignees').attr('disabled', true);
+        $('#update_assignees').attr('disabled', true);
+        $('#update_assignees').text('Updating...');
+        $.ajax({
+          url: "/_dg/bzoverrides/rpms/meson",
+          type: 'POST',
+          dataType: 'json',
+          data: {
+             'epel_assignee': $('#epel_assignee').val(),
+             'fedora_assignee': $('#fedora_assignee').val()
+          },
+          success: function(res) {
+            $("#fedora_assignee_txt").text(res.fedora_assignee);
+            $("#epel_assignee_txt").text(res.epel_assignee);
+            $('#modal_assignee').modal('hide');
+            $('#reset_assignees').attr('disabled', false);
+            $('#update_assignees').attr('disabled', false);
+            $('#update_assignees').text('Update');
+            $('html').css('cursor', 'default');
+            console.log("Successfully changed the bugzilla assignees");
+            return false;
+          },
+          error: function(res) {
+            var msg = '';
+            if(res.responseJSON.errors){
+              msg = ': ' + res.responseJSON.errors.join(', ');
+            }
+            alert("Unable to update the bugzilla assignee(s)" + msg);
+            $('html').css('cursor', 'default');
+            $('#reset_assignees').attr('disabled', false);
+            $('#update_assignees').attr('disabled', false);
+            $('#update_assignees').text('Update');
+            return false;
+          }
+        })
+        return false;
+      });
+
+
+    });
+  </script>
+
+</nav>    </div>
+    <div class="col-10">
+  <div class="row mb-1">
+    <div class="col-sm-6">
+    <h3>
+      Files
+    </h3>
+    </div>
+
+    <div class="col-sm-6">
+      <div class="float-right">
+          <div class="btn-group">
+            <a href="#" class="btn btn-outline-light border-secondary text-dark btn-sm dropdown-toggle"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="fa fa-random fa-fw"></span> Branch: <span class="font-weight-bold">master</span>
+          </a>
+            <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/el6">
+                      <span class="fa fa-random fa-fw"></span> <span class="">el6</span>
+                  </a>
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/epel7">
+                      <span class="fa fa-random fa-fw"></span> <span class="">epel7</span>
+                  </a>
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/f21">
+                      <span class="fa fa-random fa-fw"></span> <span class="">f21</span>
+                  </a>
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/f22">
+                      <span class="fa fa-random fa-fw"></span> <span class="">f22</span>
+                  </a>
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/f23">
+                      <span class="fa fa-random fa-fw"></span> <span class="">f23</span>
+                  </a>
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/f24">
+                      <span class="fa fa-random fa-fw"></span> <span class="">f24</span>
+                  </a>
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/f25">
+                      <span class="fa fa-random fa-fw"></span> <span class="">f25</span>
+                  </a>
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/f26">
+                      <span class="fa fa-random fa-fw"></span> <span class="">f26</span>
+                  </a>
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/f27">
+                      <span class="fa fa-random fa-fw"></span> <span class="">f27</span>
+                  </a>
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/f28">
+                      <span class="fa fa-random fa-fw"></span> <span class="">f28</span>
+                  </a>
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/f29">
+                      <span class="fa fa-random fa-fw"></span> <span class="">f29</span>
+                  </a>
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/f30">
+                      <span class="fa fa-random fa-fw"></span> <span class="">f30</span>
+                  </a>
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/f31">
+                      <span class="fa fa-random fa-fw"></span> <span class="">f31</span>
+                  </a>
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/f32">
+                      <span class="fa fa-random fa-fw"></span> <span class="">f32</span>
+                  </a>
+                  <a class="dropdown-item pl-1 " href="/rpms/meson/tree/latest">
+                      <span class="fa fa-random fa-fw"></span> <span class="">latest</span>
+                  </a>
+                  <a class="dropdown-item pl-1 active" href="/rpms/meson/tree/master">
+                      <span class="fa fa-random fa-fw"></span> <span class="font-weight-bold">master</span>
+                  </a>
+            </div>
+          </div>
+    </div>
+  </div>
+  </div>
+    <div class="card mb-3">
+      <div class="card-header">
+        <ol class="breadcrumb p-0 bg-transparent mb-0">
+          <li class="breadcrumb-item">
+            <a href="/rpms/meson/tree/master">
+              <span class="fa fa-random">
+              </span>&nbsp; master
+            </a>
+          </li>
+          <li class="active breadcrumb-item">
+            <span class="fa fa-file" data-glyph="">
+            </span>&nbsp; meson.spec
+          </li>
+        </ol>
+      </div>
+
+  <div class="card-body p-0">
+            <div class="bg-light border text-right pr-2">
+                <form class="btn btn-sm" method="POST" name="fork_project"
+                    action="/fork_edit/rpms/meson/edit/master/f/meson.spec">
+                    <button class="btn btn-sm btn-secondary fork_project_btn">
+                            Fork and Edit
+                    </button>
+                    
+                </form>
+
+                <a class="btn btn-secondary btn-sm" href="/rpms/meson/blob/master/f/meson.spec" title="View as blob">Blob</a>
+
+                <a class="btn btn-secondary btn-sm" href="/rpms/meson/blame/meson.spec?identifier=master" title="View git blame">Blame</a>
+
+                <a class="btn btn-secondary btn-sm" href="/rpms/meson/history/meson.spec?identifier=master" title="View git log for this file">History</a>
+
+                <a class="btn btn-secondary btn-sm" href="/rpms/meson/raw/master/f/meson.spec" title="View as raw">Raw</a>
+            </div>
+
+        <pre class="syntaxhighlightblock"><code class="lang-rpm-specfile">%global libname mesonbuild
+
+# Don‚Äôt run the tests by default, since they are rather flaky.
+# I‚Äôll get to getting them running eventually, but free time is sparse.
+# ‚Äî ekulik
+%bcond_with check
+
+Name:           meson
+Version:        0.54.0
+Release:        1%{?dist}
+Summary:        High productivity build system
+
+License:        ASL 2.0
+URL:            https://mesonbuild.com/
+Source:         https://github.com/mesonbuild/meson/archive/%{version}/%{name}-%{version}.tar.gz
+
+BuildArch:      noarch
+Obsoletes:      %{name}-gui &lt; 0.31.0-3
+
+BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
+Requires:       python%{python3_version}dist(setuptools)
+Requires:       ninja-build
+
+%if %{with check}
+BuildRequires:  ninja-build
+# Some tests expect the unversioned executable
+BuildRequires:  /usr/bin/python
+# Various languages
+BuildRequires:  gcc
+BuildRequires:  libasan
+BuildRequires:  gcc-c++
+BuildRequires:  gcc-gfortran
+BuildRequires:  gcc-objc
+BuildRequires:  gcc-objc++
+BuildRequires:  java-devel
+BuildRequires:  libomp-devel
+BuildRequires:  mono-core mono-devel
+BuildRequires:  rust
+# Since the build is noarch, we can&#39;t use %%ifarch
+#%%ifarch %%{ldc_arches}
+#BuildRequires:  ldc
+#%%endif
+# Various libs support
+BuildRequires:  boost-devel
+BuildRequires:  gtest-devel
+BuildRequires:  gmock-devel
+BuildRequires:  qt5-qtbase-devel
+BuildRequires:  qt5-qtbase-private-devel
+BuildRequires:  qt5-linguist
+BuildRequires:  vala
+BuildRequires:  python3-gobject-base
+BuildRequires:  wxGTK3-devel
+BuildRequires:  flex
+BuildRequires:  bison
+BuildRequires:  gettext
+BuildRequires:  gnustep-base-devel
+BuildRequires:  %{_bindir}/gnustep-config
+BuildRequires:  git-core
+BuildRequires:  pkgconfig(protobuf)
+BuildRequires:  pkgconfig(glib-2.0)
+BuildRequires:  pkgconfig(glib-sharp-2.0)
+BuildRequires:  pkgconfig(gobject-introspection-1.0)
+BuildRequires:  gtk-doc
+BuildRequires:  itstool
+BuildRequires:  pkgconfig(zlib)
+BuildRequires:  python3dist(cython)
+BuildRequires:  pkgconfig(sdl2)
+BuildRequires:  %{_bindir}/pcap-config
+BuildRequires:  pkgconfig(vulkan)
+BuildRequires:  llvm-devel
+BuildRequires:  cups-devel
+%endif
+
+%description
+Meson is a build system designed to optimize programmer
+productivity. It aims to do this by providing simple, out-of-the-box
+support for modern software development tools and practices, such as
+unit tests, coverage reports, Valgrind, CCache and the like.
+
+%prep
+%autosetup -p1
+# Macro should not change when we are redefining bindir
+sed -i -e &#34;/^%%__meson /s| .*$| %{_bindir}/%{name}|&#34; data/macros.%{name}
+
+%build
+%py3_build
+
+%install
+%py3_install
+install -Dpm0644 -t %{buildroot}%{rpmmacrodir} data/macros.%{name}
+
+%if %{with check}
+%check
+# Remove Boost tests for now, because it requires Python 2
+rm -rf &#34;test cases/frameworks/1 boost&#34;
+# Remove MPI tests for now because it is complicated to run
+rm -rf &#34;test cases/frameworks/17 mpi&#34;
+export MESON_PRINT_TEST_OUTPUT=1
+%{__python3} ./run_tests.py
+%endif
+
+%files
+%license COPYING
+%{_bindir}/%{name}
+%{python3_sitelib}/%{libname}/
+%{python3_sitelib}/%{name}-*.egg-info/
+%{_mandir}/man1/%{name}.1*
+%{rpmmacrodir}/macros.%{name}
+%dir %{_datadir}/polkit-1
+%dir %{_datadir}/polkit-1/actions
+%{_datadir}/polkit-1/actions/com.mesonbuild.install.policy
+
+%changelog
+* Mon Mar 30 2020 - Ernestas Kulik &lt;ekulik@redhat.com&gt; - 0.54.0-1
+- Update to 0.54.0
+
+* Sat Mar 14 2020 - Ernestas Kulik &lt;ekulik@redhat.com&gt; - 0.53.2-1.git88e40c7
+- Update to snapshot of 0.53.2 with D fixes
+
+* Fri Feb 07 2020 - Ernestas Kulik &lt;ekulik@redhat.com&gt; - 0.53.1-1
+- Update to 0.53.1
+
+* Wed Jan 29 2020 Fedora Release Engineering &lt;releng@fedoraproject.org&gt; - 0.52.1-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_32_Mass_Rebuild
+
+* Thu Dec 26 2019 Bj√∂rn Esser &lt;besser82@fedoraproject.org&gt; - 0.52.1-1
+- Update to 0.52.1
+
+* Wed Oct 09 2019 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.52.0-1
+- Update to 0.52.0
+
+* Thu Oct 03 2019 Miro Hronƒçok &lt;mhroncok@redhat.com&gt; - 0.51.2-2
+- Rebuilt for Python 3.8.0rc1 (#1748018)
+
+* Mon Aug 26 2019 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.51.2-1
+- Update to 0.51.2
+
+* Thu Aug 15 2019 Miro Hronƒçok &lt;mhroncok@redhat.com&gt; - 0.51.1-3
+- Rebuilt for Python 3.8
+
+* Thu Jul 25 2019 Fedora Release Engineering &lt;releng@fedoraproject.org&gt; - 0.51.1-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_31_Mass_Rebuild
+
+* Wed Jul 10 2019 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.51.1-1
+- Update to 0.51.1
+
+* Mon Jun 17 10:03:21 CEST 2019 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.51.0-1
+- Update to 0.51
+
+* Wed Apr 17 2019 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.50.1-1
+- Update to 0.50.1
+
+* Mon Apr 15 2019 Adam Williamson &lt;awilliam@redhat.com&gt; - 0.50.0-4
+- Backport patch to revert ld binary method change (#1699099)
+
+* Mon Apr 08 2019 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.50.0-3
+- Drop -Db_ndebug=true and just fix it instead
+
+* Mon Mar 25 2019 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.50.0-2
+- Set -Db_ndebug=true
+
+* Sun Mar 10 2019 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.50.0-1
+- Update to 0.50.0
+
+* Mon Feb 04 2019 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.49.2-1
+- Update to 0.49.2
+
+* Fri Feb 01 2019 Fedora Release Engineering &lt;releng@fedoraproject.org&gt; - 0.49.1-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_30_Mass_Rebuild
+
+* Wed Jan 23 2019 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.49.1-1
+- Update to 0.49.1
+
+* Sun Dec 09 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.49.0-1
+- Update to 0.49.0
+
+* Sat Nov 17 2018 Kalev Lember &lt;klember@redhat.com&gt; - 0.48.2-1
+- Update to 0.48.2
+
+* Sun Oct 21 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.48.1-1
+- Update to 0.48.1
+
+* Wed Sep 26 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.48.0-2
+- Add missing dependency on setuptools
+
+* Tue Sep 25 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.48.0-1
+- Update to 0.48.0
+
+* Sat Aug 25 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.47.2-1
+- Update to 0.47.2
+
+* Wed Jul 25 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.47.1-5
+- Backport more patches for &#34;feature&#34; option type
+
+* Tue Jul 24 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.47.1-4
+- Don&#39;t sneak auto-features patch yet
+
+* Tue Jul 24 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.47.1-3
+- Macros improvements
+
+* Fri Jul 13 2018 Fedora Release Engineering &lt;releng@fedoraproject.org&gt; - 0.47.1-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_29_Mass_Rebuild
+
+* Tue Jul 10 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.47.1-1
+- Update to 0.47.1
+
+* Mon Jul 02 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.47.0-1
+- Update to 0.47.0
+
+* Thu Jun 28 2018 Miro Hronƒçok &lt;mhroncok@redhat.com&gt; - 0.46.1-3
+- Fix error on Python 3.7 (#1596230)
+
+* Mon Jun 18 2018 Miro Hronƒçok &lt;mhroncok@redhat.com&gt; - 0.46.1-2
+- Rebuilt for Python 3.7
+
+* Thu May 17 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.46.1-1
+- Update to 0.46.1
+
+* Fri May 04 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.46.0-2
+- Backport upstream fixes
+
+* Tue Apr 24 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.46.0-1
+- Update to 0.46.0
+
+* Wed Mar 21 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.45.1-1
+- Update to 0.45.1
+
+* Sun Mar 04 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.45.0-1
+- Update to 0.45.0
+
+* Tue Feb 20 2018 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.44.1-1
+- Update to 0.44.1
+
+* Thu Feb 08 2018 Fedora Release Engineering &lt;releng@fedoraproject.org&gt; - 0.44.0-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_28_Mass_Rebuild
+
+* Sun Dec 10 2017 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.44.0-1
+- Update to 0.44.0
+
+* Mon Oct 09 2017 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.43.0-1
+- Update to 0.43.0
+
+* Tue Sep 12 2017 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.42.1-1
+- Update to 0.42.1
+
+* Fri Aug 18 2017 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.42.0-1
+- Update to 0.42.0
+
+* Wed Jul 26 2017 Fedora Release Engineering &lt;releng@fedoraproject.org&gt; - 0.41.2-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_27_Mass_Rebuild
+
+* Wed Jul 19 2017 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.41.2-1
+- Update to 0.41.2
+
+* Tue Jul 18 2017 Kalev Lember &lt;klember@redhat.com&gt; - 0.41.1-3
+- Backport various gtk-doc fixes from upstream
+
+* Thu Jul 13 2017 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.41.1-2
+- Strip trailing slash from pkg-config files
+
+* Mon Jun 19 2017 Igor Gnatenko &lt;ignatenko@redhat.com&gt; - 0.41.1-1
+- Update to 0.41.1
+
+* Tue Jun 13 2017 Igor Gnatenko &lt;ignatenko@redhat.com&gt; - 0.41.0-1
+- Update to 0.41.0
+
+* Wed May 31 2017 Igor Gnatenko &lt;ignatenko@redhat.com&gt; - 0.40.1-2
+- Don&#39;t run ldc tests
+
+* Fri Apr 28 2017 Igor Gnatenko &lt;ignatenko@redhat.com&gt; - 0.40.1-1
+- Update to 0.40.1
+
+* Sun Apr 23 2017 Igor Gnatenko &lt;ignatenko@redhat.com&gt; - 0.40.0-1
+- Update to 0.40.0
+
+* Thu Apr 13 2017 Igor Gnatenko &lt;ignatenko@redhat.com&gt; - 0.39.1-2
+- Exclude ldc for module builds
+
+* Thu Mar 16 2017 Igor Gnatenko &lt;ignatenko@redhat.com&gt; - 0.39.1-1
+- Update to 0.39.1
+
+* Mon Mar 06 2017 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.39.0-1
+- Update to 0.39.0
+
+* Tue Feb 07 2017 Igor Gnatenko &lt;ignatenko@redhat.com&gt; - 0.38.1-1
+- Update to 0.38.1
+
+* Sun Jan 29 2017 Igor Gnatenko &lt;ignatenko@redhat.com&gt; - 0.38.0-1
+- Update to 0.38.0
+
+* Thu Dec 22 2016 Miro Hronƒçok &lt;mhroncok@redhat.com&gt; - 0.37.1-2
+- Rebuild for Python 3.6
+
+* Tue Dec 20 2016 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.37.1-1
+- Update to 0.37.1
+
+* Mon Dec 19 2016 Miro Hronƒçok &lt;mhroncok@redhat.com&gt; - 0.37.0-2
+- Rebuild for Python 3.6
+
+* Sun Dec 18 2016 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.37.0-1
+- Update to 0.37.0
+
+* Thu Dec 15 2016 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.36.0-4
+- Backport more RPM macro fixes (FPC ticket #655)
+
+* Tue Dec 13 2016 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.36.0-3
+- Backport fixes to RPM macros
+
+* Sat Dec 03 2016 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.36.0-2
+- Print test output during build
+
+* Mon Nov 14 2016 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.36.0-1
+- Update to 0.36.0
+
+* Tue Oct 18 2016 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.35.1-1
+- Update to 0.35.1 (RHBZ #1385986)
+
+* Tue Oct 11 2016 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.35.0-3
+- Backport couple of fixes
+
+* Wed Oct 05 2016 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.35.0-2
+- Apply patch to fix FTBFS
+
+* Mon Oct 03 2016 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.35.0-1
+- Update to 0.35.0
+
+* Wed Sep 07 2016 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.34.0-2
+- Run D test suite
+
+* Wed Sep 07 2016 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.34.0-1
+- Update to 0.34.0
+
+* Tue Aug 09 2016 Jon Ciesla &lt;limburgher@gmail.com&gt; - 0.33.0-2
+- Obsoletes fix.
+
+* Tue Aug 09 2016 Jon Ciesla &lt;limburgher@gmail.com&gt; - 0.33.0-1
+- 0.33.0
+- GUI dropped upstream.
+
+* Tue Jul 19 2016 Fedora Release Engineering &lt;rel-eng@lists.fedoraproject.org&gt; - 0.31.0-2
+- https://fedoraproject.org/wiki/Changes/Automatic_Provides_for_Python_RPM_Packages
+
+* Thu Apr 14 2016 Igor Gnatenko &lt;ignatenko@redhat.com&gt; - 0.31.0-1
+- Update to 0.31.0
+
+* Sun Mar 20 2016 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.30.0-1
+- Update to 0.30.0
+
+* Thu Feb 04 2016 Fedora Release Engineering &lt;releng@fedoraproject.org&gt; - 0.29.0-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_24_Mass_Rebuild
+
+* Sun Jan 24 2016 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.29.0-1
+- Update to 0.29.0
+
+* Fri Jan 15 2016 Jonathan Wakely &lt;jwakely@redhat.com&gt; - 0.28.0-2
+- Rebuilt for Boost 1.60
+
+* Mon Dec 28 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.28.0-1
+- 0.28.0
+
+* Wed Nov 25 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.27.0-1
+- 0.27.0
+
+* Tue Nov 10 2015 Fedora Release Engineering &lt;rel-eng@lists.fedoraproject.org&gt; - 0.26.0-3
+- Rebuilt for https://fedoraproject.org/wiki/Changes/python3.5
+
+* Fri Oct 30 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.26.0-2
+- Fix rpm macros for using optflags
+
+* Sun Sep 13 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.26.0-1
+- 0.26.0
+
+* Thu Aug 27 2015 Jonathan Wakely &lt;jwakely@redhat.com&gt; - 0.25.0-4
+- Rebuilt for Boost 1.59
+
+* Wed Jul 29 2015 Fedora Release Engineering &lt;rel-eng@lists.fedoraproject.org&gt; - 0.25.0-3
+- Rebuilt for https://fedoraproject.org/wiki/Changes/F23Boost159
+
+* Wed Jul 22 2015 David Tardon &lt;dtardon@redhat.com&gt; - 0.25.0-2
+- rebuild for Boost 1.58
+
+* Sun Jul 12 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.25.0-1
+- 0.25.0
+
+* Sat Jul 11 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.24.0-3
+- Update URLs
+- drop unneded hacks in install section
+- enable print test output for tests
+
+* Wed Jun 17 2015 Fedora Release Engineering &lt;rel-eng@lists.fedoraproject.org&gt; - 0.24.0-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_23_Mass_Rebuild
+
+* Mon May 25 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.24.0-1
+- Update to 0.24.0
+
+* Thu May 21 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.23.0-3.20150328git0ba1d54
+- Update to latest git
+
+* Thu May 21 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.23.0-3
+- Add patch to accept .S files
+
+* Wed Apr 29 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.23.0-2
+- Add python3 to Requires (Thanks to Ilya Kyznetsov)
+
+* Tue Mar 31 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.23.0-1
+- 0.23.0
+
+* Sat Mar 28 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.22.0-9.20150328git3b49b71
+- Update to latest git
+
+* Mon Mar 23 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.22.0-9.20150325git18550fe
+- Update to latest git
+- Include mesonintrospect
+
+* Mon Mar 23 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.22.0-9.20150322git78d31ca
+- Fix filelists for mesongui (python-bytecode-without-source)
+
+* Sun Mar 22 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.22.0-8.20150322git78d31ca
+- Enable C# tests
+
+* Sun Mar 22 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.22.0-7.20150322git78d31ca
+- update to latest git
+- fix tests on arm
+
+* Sat Mar 21 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.22.0-7.20150321gita084a8e
+- update to latest git
+
+* Mon Mar 16 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.22.0-7.20150316gitfa2c659
+- update to latest git
+
+* Tue Mar 10 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.22.0-7.20150310gitf9f51b1
+- today&#39;s git snapshot with support for cool GNOME features
+- re-enable wxGTK3 tests, package fixed in rawhide
+
+* Thu Feb 26 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.22.0-6.git7581895
+- split gui to subpkg
+- update to latest snapshot
+- enable tests
+
+* Thu Feb 26 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.22.0-5.gitc6dbf98
+- Fix packaging style
+- Make package noarch
+
+* Mon Feb 23 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.22.0-4.git.c6dbf98
+- Use development version
+
+* Sat Feb 21 2015 Igor Gnatenko &lt;i.gnatenko.brain@gmail.com&gt; - 0.22.0-3
+- Add ninja-build to requires
+
+* Thu Jan 22 2015 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.22.0-2
+- fix shebang in python files
+
+* Wed Jan 21 2015 Igor Gnatenko &lt;ignatenkobrain@fedoraproject.org&gt; - 0.22.0-1
+- Initial package
+</code></pre>
+  </div>
+ </div> <!-- end .card-->
+
+</div>
+</div>
+</div>
+    </div>
+
+        <div class="footer pt-4 text-white">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <div>
+                    <div>Powered by <a href="https://pagure.io/pagure" class="notblue">Pagure</a> 5.9.1</div>
+                    <div>
+                        <a href="https://docs.pagure.org/pagure/usage/index.html" class="notblue">Documentation</a> &bull;
+                        <a href="https://pagure.io/pagure/new_issue" class="notblue">File an Issue</a> &bull;
+                        <a href="/about">About this Instance</a> &bull;
+                        <a href="/ssh_info" class="notblue">SSH Hostkey/Fingerprint</a>
+                    </div>
+                </div>
+                <div class="ml-auto text-right">
+                    <div>&copy; Red Hat, Inc. and others.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" nonce="WaiVIs5dhPuoyFSUWfiTDHv3h" src="/static/vendor/jquery/jquery.min.js?version=5.9.1"></script>
+
+    <script src="/static/vendor/bootstrap/bootstrap.bundle.min.js?version=5.9.1"></script>
+
+    <script type="text/javascript" nonce="WaiVIs5dhPuoyFSUWfiTDHv3h">
+      $('[data-toggle="tooltip"]').tooltip({placement : 'bottom'});
+      $(".cancel_btn").click(function() {
+        history.back();
+      });
+    </script>
+
+<script type="text/javascript"  nonce="WaiVIs5dhPuoyFSUWfiTDHv3h" src="/static/vendor/lazyload/lazyload.min.js?version=5.9.1"></script>
+
+<script type="text/javascript" nonce="WaiVIs5dhPuoyFSUWfiTDHv3h">
+window.addEventListener("load", function(event) {
+    lazyload();
+});
+</script>
+
+<script type="text/javascript" nonce="WaiVIs5dhPuoyFSUWfiTDHv3h">
+$("#giturl-toggle").on('click', function(event){
+  event.stopPropagation();
+  $("#giturl-more").toggle();
+  $("#giturl-toggle").hide();
+})
+
+$(".fork_project_btn").click(function() {
+  $('#fork_project').submit();
+});
+
+$(".select-on-focus").on("focus", function() {
+  $(this).select();
+});
+
+</script>
+
+<script type="text/javascript" nonce="WaiVIs5dhPuoyFSUWfiTDHv3h" src="/static/vendor/highlight.js/highlight.pack.js?version=5.9.1"></script>
+<script type="text/javascript" nonce="WaiVIs5dhPuoyFSUWfiTDHv3h" src="/static/vendor/highlightjs-line-numbers/highlightjs-line-numbers.min.js?version=5.9.1"></script>
+<script type="text/javascript" nonce="WaiVIs5dhPuoyFSUWfiTDHv3h" src="/static/vendor/highlight.js/spec.js?version=5.9.1"></script>
+
+<script type="text/javascript" nonce="WaiVIs5dhPuoyFSUWfiTDHv3h">
+  $(document).ready(function() {
+  $('.fork_project_btn').click($("[name=fork_project]").submit);
+
+  $('pre.syntaxhighlightblock code').each(function(i, block) {
+    hljs.highlightBlock(block);
+    hljs.lineNumbersBlock(block);
+  });
+
+  var cls = "highlighted-line";
+  var lines = location.hash.substr(2).split('-').map(function (x) { return parseInt(x, 10) });
+  if (! isNaN(lines[0]))
+  {
+    for (var i = lines[lines.length - 1]; i >= lines[0]; i--) {
+      $('#_' + i).parent().parent().addClass(cls);
+    }
+    setTimeout(function(){
+      $("#_" + lines[0]).get(0).scrollIntoView({behavior: "instant", block: "start", inline: "nearest"});
+    }, 50);
+  }
+});
+</script>
+
+<script type="text/javascript" nonce="WaiVIs5dhPuoyFSUWfiTDHv3h">
+
+  function updateHighlight() {
+    var cls = "highlighted-line";
+    $('.' + cls).removeClass(cls)
+    if (location.hash !== '') {
+      var lines = location.hash.substr(2).split('-').map(function (x) { return parseInt(x, 10) });
+      for (var i = lines[lines.length - 1]; i >= lines[0]; i--) {
+        $('[data-line-number=' + i + ']').closest('tr').addClass(cls);
+      }
+      return lines;
+    }
+    return [];
+  }
+  $(window).on('hashchange', updateHighlight);
+  var selected = [];
+  $("[data-line-number]").click(function (ev) {
+    var line = $(this).attr('data-line-number');
+    if (ev.shiftKey) {
+      selected = selected.slice(-1).concat(line);
+    } else {
+      selected = [line];
+    }
+
+    var hash = '_' + selected[0];
+    if (selected.length === 2) {
+      hash = '_' + Math.min(selected[0], selected[1]) + '-' + Math.max(selected[0], selected[1]);
+    }
+    window.location.hash = hash;
+    return false;
+  });
+
+</script>
+
+
+</body>
+</html>ıàE*Cï      ^±¿2^±¿8A£Ë^±¿5   B    :https://src.fedoraproject.org/rpms/meson/blob/master/f/meson.spec necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Date: Tue, 05 May 2020 19:36:20 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+content-security-policy: default-src 'self'; script-src 'self' 'nonce-WaiVIs5dhPuoyFSUWfiTDHv3h' https://apps.fedoraproject.org https://mdapi.fedoraproject.org; style-src 'self' 'nonce-WaiVIs5dhPuoyFSUWfiTDHv3h'; object-src 'none'; base-uri 'self'; img-src 'self' https:; connect-src 'self' https://pdc.fedoraproject.org https://apps.fedoraproject.org https://mdapi.fedoraproject.org;
+apptime: D=526359
+x-fedora-appserver: pkgs02.phx2.fedoraproject.org
+content-type: text/html; charset=utf-8
+X-Fedora-ProxyServer: proxy10.phx2.fedoraproject.org
+X-Fedora-RequestID: XrHANFv@wuEMjXlLaAlQaAAABUI
+ original-response-headers Date: Tue, 05 May 2020 19:36:20 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+content-security-policy: default-src 'self'; script-src 'self' 'nonce-WaiVIs5dhPuoyFSUWfiTDHv3h' https://apps.fedoraproject.org https://mdapi.fedoraproject.org; style-src 'self' 'nonce-WaiVIs5dhPuoyFSUWfiTDHv3h'; object-src 'none'; base-uri 'self'; img-src 'self' https:; connect-src 'self' https://pdc.fedoraproject.org https://apps.fedoraproject.org https://mdapi.fedoraproject.org;
+apptime: D=526359
+x-fedora-appserver: pkgs02.phx2.fedoraproject.org
+content-type: text/html; charset=utf-8
+X-Fedora-ProxyServer: proxy10.phx2.fedoraproject.org
+X-Fedora-RequestID: XrHANFv@wuEMjXlLaAlQaAAABUI
+Keep-Alive: timeout=15, max=500
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+ ctid 1 uncompressed-len 0 predictor::resource-count 21 predictor::https://src.fedoraproject.org/theme/static/fedora-bootstrap-1.3.0/fedora-bootstrap.min.css?version=5.9.1 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/theme/static/fonts/fonts.css?version=5.9.1 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/theme/static/fonts/hack_fonts/css/hack-extended.min.css?version=5.9.1 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/theme/static/theme.css?version=5.9.1 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/static/vendor/font-awesome/font-awesome.css?version=5.9.1 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/static/pagure.css?version=5.9.1 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/static/vendor/highlight.js/styles/github.css?version=5.9.1 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/static/vendor/highlightjs-line-numbers/highlightjs-line-numbers.min.css?version=5.9.1 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/theme/static/pagure-logo.png?version=5.9.1 1,1,1588707378,4096 net-response-time-onstart 2375 net-response-time-onstop 2710 predictor::https://src.fedoraproject.org/static/vendor/jquery/jquery.min.js?version=5.9.1 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/static/vendor/bootstrap/bootstrap.bundle.min.js?version=5.9.1 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/static/vendor/lazyload/lazyload.min.js?version=5.9.1 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/static/vendor/highlight.js/highlight.pack.js?version=5.9.1 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/static/vendor/highlightjs-line-numbers/highlightjs-line-numbers.min.js?version=5.9.1 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/static/vendor/highlight.js/spec.js?version=5.9.1 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/theme/static/fonts/open-sans-v13-latin_latin-ext-regular.woff2 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/static/vendor/font-awesome/font-awesome/fontawesome-webfont.woff2?v=4.7.0 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/theme/static/fonts/open-sans-v13-latin_latin-ext-700.woff2 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/theme/static/fonts/hack_fonts/fonts/woff2/hack-regular-webfont.woff2?v=2.020 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/theme/static/fonts/hack_fonts/fonts/woff2/hack-bold-webfont.woff2?v=2.020 1,1,1588707378,4096 predictor::https://src.fedoraproject.org/theme/static/fonts/hack_fonts/fonts/woff2/hack-italic-webfont.woff2?v=2.020 1,1,1588707378,4096   êh
