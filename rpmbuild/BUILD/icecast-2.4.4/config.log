@@ -742,7 +742,7 @@ configure:9952: $? = 0
 configure:9982: result: ok
 configure:10069: checking for libvorbis
 configure:10089: gcc -o conftest -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -I/usr/include  -L/usr/lib conftest.c  -lvorbis >&5
-/usr/bin/ld: /tmp/cc1zlNpt.o: undefined reference to symbol 'ogg_stream_init'
+/usr/bin/ld: /tmp/ccAUiIwh.o: undefined reference to symbol 'ogg_stream_init'
 /usr/bin/ld: /usr/lib64/libogg.so.0: error adding symbols: DSO missing from command line
 collect2: error: ld returned 1 exit status
 configure:10089: $? = 1
@@ -1223,7 +1223,7 @@ conftest.c:61:22: warning: null argument where non-null required (argument 3) [-
 conftest.c:59:15: warning: 'th' is used uninitialized in this function [-Wuninitialized]
    59 | pthread_t th; pthread_join(th, 0);
       |               ^~~~~~~~~~~~~~~~~~~
-/usr/bin/ld: /tmp/cco7gMPr.o: in function `main':
+/usr/bin/ld: /tmp/ccSKDLse.o: in function `main':
 /home/chakshita/rpmbuild/BUILD/icecast-2.4.4/conftest.c:59: undefined reference to `pthread_join'
 /usr/bin/ld: /home/chakshita/rpmbuild/BUILD/icecast-2.4.4/conftest.c:61: undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status

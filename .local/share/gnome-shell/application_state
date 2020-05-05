@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="firefox.desktop" score="1.5" last-seen="1588190650"/>
+    <application id="firefox.desktop" score="1090.5" last-seen="1588670311"/>
     <application id="org.gnome.Nautilus.desktop" score="1" last-seen="1588192008"/>
     <application id="org.gnome.Software.desktop" score="0.0625" last-seen="1588093541"/>
-    <application id="org.gnome.Terminal.desktop" score="13625.625" last-seen="1588539825"/>
+    <application id="org.gnome.Terminal.desktop" score="15547.625" last-seen="1588662672"/>
     <application id="org.gnome.gedit.desktop" score="171.5" last-seen="1588537130"/>
-    <application id="yelp.desktop" score="0.1875" last-seen="1587924179"/>
   </context>
 </application-state>

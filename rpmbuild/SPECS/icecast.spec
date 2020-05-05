@@ -46,4 +46,5 @@ rm -rf $RPM_BUILD_ROOT%{_datadir}/doc/%{name}
 %{_bindir}/icecast
 %{_prefix}/share/icecast/*
 
-#%changelog
+%changelog
+

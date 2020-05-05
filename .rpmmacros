@@ -1,5 +1,5 @@
 
-%_topdir %(echo $HOME)/rpmbuild
+%_topdir /home/chakshita/rpmbuild
 
 %__arch_install_post \
     [ "%{buildarch}" = "noarch" ] || QA_CHECK_RPATHS=1 ; \
