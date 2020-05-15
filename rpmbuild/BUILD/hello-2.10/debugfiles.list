@@ -1,0 +1,4 @@
+%dir /usr/lib/debug
+%dir /usr/lib/debug/usr
+%dir /usr/lib/debug/usr/bin
+/usr/lib/debug/usr/bin/hello-2.10-1.fc31.x86_64.debug

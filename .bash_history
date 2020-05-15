@@ -221,3 +221,16 @@ ls
 git add init
 git init add
 cd chakshita
+ls
+sudo usermod -a -G mock chakshita
+rpmdev-setuptree
+ls
+tree ~/rpmbuild/
+ls
+cd ~/rpmbuild/SOURCES
+ls
+wget http://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz -P ~/rpmbuild/SOURCES
+cd ~/rpmbuild/SPECS
+rpmdev-newspec hello
+ls
+vim hello.spec
