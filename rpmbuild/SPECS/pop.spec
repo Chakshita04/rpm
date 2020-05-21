@@ -1,9 +1,10 @@
 Name:           popup
-Version:        1.0.0        
+Version:        1.0.0
 Release:        1
 Summary:        Generating popup messages
+
 License:        Not Applicable
-#URL:            
+URL:
 Source0:        %{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-chakshita
 
@@ -11,11 +12,10 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-chakshita
 Popup is used to generate messages
 Author:
 Chakshita
-
-%global debug_package %{nil}
 %prep
 
 %setup -q
+
 %build
 #Empty
 
@@ -29,11 +29,13 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-#/test/file1
-#/test/file2
+/test/file1
+/test/file2
+
 
 %changelog
 * Sat May 16 2020 Chakshita -1.0.0-1
 -Created first draft
 
+ 
 
