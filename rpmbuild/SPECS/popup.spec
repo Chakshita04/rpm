@@ -7,6 +7,15 @@ License:        Not Applicable
 Source0:        %{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-chakshita
 
+#BuildRequires: gcc
+#BuildRequires: meson
+#BuildRequires: bundle
+Requires:      rpmlib(CompressedFileNames) <= 3.0.4-1
+Requires:      rpmlib(FileDigests) <= 4.6.0-1
+Requires:      rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires:      rpmlib(PayloadIsZstd) <= 5.4.18-1
+
+
 %description
 Popup is used to generate messages
 Author:

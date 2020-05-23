@@ -15,7 +15,9 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1590135346,,"wq!"
+|2,0,1590264233,,"wq!"
+:Wq!
+|2,0,1590264230,,"Wq!"
 :q
 |2,0,1590134917,,"q"
 :q!
@@ -24,8 +26,6 @@ $
 |2,0,1589748366,,"q1"
 :wq1
 |2,0,1589742998,,"wq1"
-:Wq!
-|2,0,1589487509,,"Wq!"
 
 # Search String History (newest to oldest):
 ? @$
@@ -46,38 +46,144 @@ $
 |3,0,36,0,1,0,1589485847,"l"
 
 # File marks:
-'0  36  20  ~/rpmbuild/SPECS/popup.spec
-|4,48,36,20,1590135346,"~/rpmbuild/SPECS/popup.spec"
-'1  18  11  ~/rpmbuild/SPECS/popup.spec
-|4,49,18,11,1590134967,"~/rpmbuild/SPECS/popup.spec"
-'2  18  11  ~/rpmbuild/SPECS/popup.spec
-|4,50,18,11,1590134967,"~/rpmbuild/SPECS/popup.spec"
-'3  8  1  ~/rpmbuild
-|4,51,8,1,1590134917,"~/rpmbuild"
-'4  1  0  ~/popup-1.0/Makefile
-|4,52,1,0,1590134353,"~/popup-1.0/Makefile"
-'5  27  0  ~/popup-1.0/main.c
-|4,53,27,0,1590134337,"~/popup-1.0/main.c"
-'6  6  0  ~/rpmbuild/SPECS/popup.spec
-|4,54,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
-'7  6  0  ~/rpmbuild/SPECS/popup.spec
-|4,55,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
-'8  6  0  ~/rpmbuild/SPECS/popup.spec
-|4,56,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
-'9  6  0  ~/rpmbuild/SPECS/popup.spec
-|4,57,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
+'0  10  0  ~/rpmbuild/SPECS/popup.spec
+|4,48,10,0,1590264233,"~/rpmbuild/SPECS/popup.spec"
+'1  1  0  ~/rpmbuild/SPECS/pop
+|4,49,1,0,1590264208,"~/rpmbuild/SPECS/pop"
+'2  16  0  ~/rpmbuild/SPECS/popup.spec
+|4,50,16,0,1590264151,"~/rpmbuild/SPECS/popup.spec"
+'3  16  0  ~/rpmbuild/SPECS/popup.spec
+|4,51,16,0,1590264151,"~/rpmbuild/SPECS/popup.spec"
+'4  12  0  ~/rpmbuild/SPECS/popup.spec
+|4,52,12,0,1590263148,"~/rpmbuild/SPECS/popup.spec"
+'5  12  0  ~/rpmbuild/SPECS/popup.spec
+|4,53,12,0,1590263148,"~/rpmbuild/SPECS/popup.spec"
+'6  12  0  ~/rpmbuild/SPECS/popup.spec
+|4,54,12,0,1590263148,"~/rpmbuild/SPECS/popup.spec"
+'7  12  0  ~/rpmbuild/SPECS/popup.spec
+|4,55,12,0,1590263148,"~/rpmbuild/SPECS/popup.spec"
+'8  12  20  ~/rpmbuild/SPECS/popup.spec
+|4,56,12,20,1590261131,"~/rpmbuild/SPECS/popup.spec"
+'9  12  20  ~/rpmbuild/SPECS/popup.spec
+|4,57,12,20,1590261131,"~/rpmbuild/SPECS/popup.spec"
 
 # Jumplist (newest first):
+-'  10  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,10,0,1590264233,"~/rpmbuild/SPECS/popup.spec"
+-'  16  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,16,0,1590264224,"~/rpmbuild/SPECS/popup.spec"
+-'  1  0  ~/rpmbuild/SPECS/pop
+|4,39,1,0,1590264208,"~/rpmbuild/SPECS/pop"
+-'  1  0  ~/rpmbuild/SPECS/pop
+|4,39,1,0,1590264208,"~/rpmbuild/SPECS/pop"
+-'  16  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,16,0,1590264151,"~/rpmbuild/SPECS/popup.spec"
+-'  16  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,16,0,1590264151,"~/rpmbuild/SPECS/popup.spec"
+-'  12  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,12,0,1590264127,"~/rpmbuild/SPECS/popup.spec"
+-'  12  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,12,0,1590264127,"~/rpmbuild/SPECS/popup.spec"
+-'  12  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,12,0,1590264127,"~/rpmbuild/SPECS/popup.spec"
+-'  12  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,12,0,1590263148,"~/rpmbuild/SPECS/popup.spec"
+-'  12  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,12,0,1590263148,"~/rpmbuild/SPECS/popup.spec"
+-'  12  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,12,20,1590261131,"~/rpmbuild/SPECS/popup.spec"
+-'  12  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,12,20,1590261131,"~/rpmbuild/SPECS/popup.spec"
+-'  45  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,45,20,1590260894,"~/rpmbuild/SPECS/popup.spec"
+-'  39  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,39,20,1590260894,"~/rpmbuild/SPECS/popup.spec"
+-'  45  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,45,20,1590260894,"~/rpmbuild/SPECS/popup.spec"
+-'  39  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,39,20,1590260894,"~/rpmbuild/SPECS/popup.spec"
+-'  39  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,39,20,1590260894,"~/rpmbuild/SPECS/popup.spec"
+-'  45  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,45,20,1590260894,"~/rpmbuild/SPECS/popup.spec"
+-'  39  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,39,20,1590260894,"~/rpmbuild/SPECS/popup.spec"
+-'  39  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,39,20,1590260894,"~/rpmbuild/SPECS/popup.spec"
+-'  42  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,42,20,1590135346,"~/rpmbuild/SPECS/popup.spec"
 -'  36  20  ~/rpmbuild/SPECS/popup.spec
 |4,39,36,20,1590135346,"~/rpmbuild/SPECS/popup.spec"
+-'  42  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,42,20,1590135346,"~/rpmbuild/SPECS/popup.spec"
+-'  36  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,36,20,1590135346,"~/rpmbuild/SPECS/popup.spec"
+-'  36  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,36,20,1590135346,"~/rpmbuild/SPECS/popup.spec"
+-'  42  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,42,20,1590135346,"~/rpmbuild/SPECS/popup.spec"
+-'  36  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,36,20,1590135346,"~/rpmbuild/SPECS/popup.spec"
+-'  36  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,36,20,1590135346,"~/rpmbuild/SPECS/popup.spec"
+-'  27  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,27,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  24  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,24,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  21  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,21,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
 -'  18  11  ~/rpmbuild/SPECS/popup.spec
 |4,39,18,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  27  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,27,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  24  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,24,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  21  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,21,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  18  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  21  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,21,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  18  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  27  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,27,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  24  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,24,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  21  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,21,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  18  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  21  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,21,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  18  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  18  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,11,1590134967,"~/rpmbuild/SPECS/popup.spec"
 -'  18  11  ~/rpmbuild/SPECS/popup.spec
 |4,39,18,11,1590134967,"~/rpmbuild/SPECS/popup.spec"
 -'  6  0  ~/rpmbuild/SPECS/popup.spec
 |4,39,6,0,1590134934,"~/rpmbuild/SPECS/popup.spec"
 -'  6  0  ~/rpmbuild/SPECS/popup.spec
 |4,39,6,0,1590134934,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590134934,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590134934,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590134934,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590134934,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590134934,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590134934,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590134934,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590134934,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590134934,"~/rpmbuild/SPECS/popup.spec"
 -'  8  1  ~/rpmbuild
 |4,39,8,1,1590134917,"~/rpmbuild"
 -'  8  1  ~/rpmbuild
@@ -86,222 +192,131 @@ $
 |4,39,8,1,1590134917,"~/rpmbuild"
 -'  8  1  ~/rpmbuild
 |4,39,8,1,1590134917,"~/rpmbuild"
--'  1  0  ~/popup-1.0/Makefile
-|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
--'  1  0  ~/popup-1.0/Makefile
-|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
--'  1  0  ~/popup-1.0/Makefile
-|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
--'  1  0  ~/popup-1.0/Makefile
-|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
--'  1  0  ~/popup-1.0/Makefile
-|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
--'  1  0  ~/popup-1.0/Makefile
-|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
--'  1  0  ~/popup-1.0/Makefile
-|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
--'  1  0  ~/popup-1.0/Makefile
-|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  27  0  ~/popup-1.0/main.c
-|4,39,27,0,1590134337,"~/popup-1.0/main.c"
--'  6  0  ~/rpmbuild/SPECS/popup.spec
-|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
--'  6  0  ~/rpmbuild/SPECS/popup.spec
-|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
--'  6  0  ~/rpmbuild/SPECS/popup.spec
-|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
--'  6  0  ~/rpmbuild/SPECS/popup.spec
-|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
--'  6  0  ~/rpmbuild/SPECS/popup.spec
-|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
--'  6  0  ~/rpmbuild/SPECS/popup.spec
-|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
--'  6  0  ~/rpmbuild/SPECS/popup.spec
-|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
--'  6  0  ~/rpmbuild/SPECS/popup.spec
-|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
--'  33  11  ~/rpmbuild/SPECS/popup.spec
-|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  18  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  19  8  ~/rpmbuild/SPECS/popup.spec
-|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
--'  15  27  ~/rpmbuild/SPECS/popup.spec
-|4,39,15,27,1590085580,"~/rpmbuild/SPECS/popup.spec"
--'  16  27  ~/rpmbuild/SPECS/popup.spec
-|4,39,16,27,1590085580,"~/rpmbuild/SPECS/popup.spec"
--'  15  27  ~/rpmbuild/SPECS/popup.spec
-|4,39,15,27,1590085580,"~/rpmbuild/SPECS/popup.spec"
--'  16  27  ~/rpmbuild/SPECS/popup.spec
-|4,39,16,27,1590085580,"~/rpmbuild/SPECS/popup.spec"
--'  15  27  ~/rpmbuild/SPECS/popup.spec
-|4,39,15,27,1590085580,"~/rpmbuild/SPECS/popup.spec"
--'  16  27  ~/rpmbuild/SPECS/popup.spec
-|4,39,16,27,1590085580,"~/rpmbuild/SPECS/popup.spec"
--'  15  27  ~/rpmbuild/SPECS/popup.spec
-|4,39,15,27,1590085580,"~/rpmbuild/SPECS/popup.spec"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
 
 # History of marks within files (newest to oldest):
 
 > ~/rpmbuild/SPECS/popup.spec
-	*	1590135344	0
-	"	36	20
-	^	36	21
-	.	36	20
+	*	1590264231	0
+	"	10	0
+	^	16	0
+	.	16	0
 	+	2	20
 	+	6	16
 	+	5	29
 	+	8	50
-	+	31	0
-	+	16	5
-	+	18	8
-	+	20	6
-	+	21	0
-	+	25	19
-	+	26	0
+	+	40	0
+	+	25	5
+	+	27	8
+	+	29	6
+	+	30	0
+	+	34	19
+	+	35	0
+	+	50	0
+	+	37	19
+	+	48	36
+	+	49	19
+	+	27	9
 	+	41	0
-	+	28	19
-	+	39	36
-	+	40	19
-	+	18	9
-	+	32	0
-	+	33	0
-	+	15	27
-	+	18	9
-	+	19	0
+	+	42	0
+	+	24	27
+	+	27	9
+	+	28	0
 	+	6	0
-	+	37	0
+	+	46	0
 	+	6	0
-	+	18	11
-	+	36	20
+	+	27	11
+	+	45	20
+	+	11	20
+	+	12	20
+	+	10	0
+	+	11	0
+	+	12	0
+	+	18	0
+	+	16	49
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+
+> ~/rpmbuild/SPECS/pop
+	*	1590264206	0
+	"	1	0
 
 > ~/popup-1.0/Makefile
 	*	1590134350	0
