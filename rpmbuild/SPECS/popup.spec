@@ -15,7 +15,7 @@ Chakshita
 %global debug_package %{nil}
 %prep
 
-%setup -q
+%setup -q -c
 %build
 #Empty
 
@@ -31,6 +31,9 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 #/test/file1
 #/test/file2
+/popup-1.0/Makefile
+/popup-1.0/main.c
+/popup-1.0/popup.spec
 
 %changelog
 * Sat May 16 2020 Chakshita -1.0.0-1

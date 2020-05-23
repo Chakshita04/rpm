@@ -234,3 +234,292 @@ cd ~/rpmbuild/SPECS
 rpmdev-newspec hello
 ls
 vim hello.spec
+ls
+cd rpmbuild/
+ls
+cd SPECS
+ls
+vim hello.spec
+ls
+rpmbuild -ba hello.spec
+rpmlint hello.spec ../SRPMS/hello* ../RPMS/*/hello*
+mock --verbose ../SRPMS/hello-2.10-1.fc29.src.rpm
+cd ..
+ls
+cd BUILD
+ls
+vi hello-2.10/
+ls
+cd ..
+ls
+cd BUILDROOT/
+LS
+ls
+cd ..
+ls
+cd RPMS
+ls
+cd ..
+ls
+cd SRPMS
+ls
+cd ..
+ls
+LS
+ls
+cd SOURCES
+ls
+cd ..
+ls
+cd ..
+ls
+cd chakshita
+sl
+ls
+cd rpmbuild/
+ls
+cd SRPMS/
+ls
+pwd
+rpm -i /home/chakshita/rpmbuild/SRPMS
+rpm -i /home/chakshita/rpmbuild/SRPMS/hello-2.10-1.fc31.src.rpm
+ls
+cd ..
+cd SPECS
+ls
+rpmlint hello.spec ../SRPMS/hello* ../RPMS/*/hello*
+vim hello.spec
+cd ..
+cd SRPMS/
+ls
+cd ../SPECS
+mock --verbose ../SRPMS/hello-2.10-1.fc31.src.rpm 
+ls
+cd..
+cd ..
+ls
+cd ..
+mkdir helloworld-1.0
+cd main.c
+cd helloworld-1.0/
+vim main.c
+vim Makefile
+make
+vim main.c
+make
+vim Makefile
+make
+vim Makefile
+make
+vim Makefile
+make
+vim Makefile
+make
+vim Makefile
+make
+vim Makefile
+make
+rm -rf Makefile
+cd ..
+rm -rf helloworld-1.0/
+cd rpmbuild/
+ls
+cd SPEC
+cd SPECS
+ls
+vi hello-world.spec
+rm -rf hello-world.spec 
+emacs hello-world.spec
+vim hello-world.spec
+rpmdev-setuptree
+ls
+rpmbuild -ba hello-world.spec
+cd ..
+ls
+cd ..
+mkdir hello-world-1.0
+ls
+cd hello-world-1.0/
+vim main.c
+rm -rf main.c 
+vim cello.c
+vim Makefile
+ls
+gcc -g -o cello cello.c
+./cello
+make
+vi Makefile 
+make
+vi Makefile 
+make
+vi Makefile 
+make
+ls
+rm -rf 1
+ls
+rm -rf cello
+make
+vim Makefile
+make
+vi Makefile
+make
+cp cello.c cello.c.orig
+make clean
+make
+vi Makefile
+make
+ls
+cd ..
+ls
+rm -rf hello-world-1.0/
+ls
+cd rpmbuild
+ls
+cd SPECS
+ls
+vi hello-world.spec 
+vi hello.spec
+rm -rf hello-world.spec 
+ls
+rpm -ba hello.spec
+rpmbuild -ba hello.spec
+cd ..
+ls
+cd SRPMS
+ls
+cd ..
+ls
+cd ..
+ls
+git init 
+git add .
+git commit -m "initial commit"
+git remote add origin remote https://github.com/Chakshita04/rpm.git
+git remote add origin  https://github.com/Chakshita04/rpm.git
+git remote -v
+git push -f origin master
+clear
+ls
+cd popup-1.0/
+ls
+cd ..
+ls
+cd CM
+yum install rpmdevtools rpm-build rpmsign
+exit
+sudo -i
+rpmdev-setuptree
+ls
+sudo -i
+rpmdev-setuptree
+ls
+cd rpmbuild/
+ls
+vim SPECS/pop.spec
+ls
+rm -rf 1
+ls
+cd SPECS
+ls
+vim popup.spec
+vim pop.spec
+vim popup.spec
+vim pop.spec
+vim popup.spec 
+vim popup.spec
+vim pop.spec
+vim popup.spec
+vim pop.spec
+cd ..
+tree /tmp/rpmbuild/
+ls
+sudo -i
+mkdir popup-1.0.0
+mkdir -p popup-1.0/test/file1
+cd popup-1.0/test
+ls
+rm -rf file1
+cd ..
+mkdir -p popup-1.0.0/test/file1
+mkdir -p popup-1.0.0/test/file2
+tar -czvf /rpmbuild/SOURCES/popup-1.0.0-1.tar.gz popup-1.0.0/*
+d ..
+cd ..
+ls
+vim /chakshita/.rpmmacros
+ yum install rpmdevtools rpm-build rpmsign
+sudo -i
+ls
+mkdir -p ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
+ls
+cd ..
+ls
+cd rpmbuild
+cd /tmp
+ls
+cd ..
+cd home
+ls
+cd ..
+sudo yum install make
+ls
+vim /root/.rpmmacros
+cd home
+ls
+vim /chakshita/.rpmmacros
+ls
+cd chakshita
+ls
+vim /.rpmmacros
+pwd
+ls
+cd ..
+pwd
+mkdir -p tmp
+ls
+cd tmp
+ls
+cd ..
+cd tmp
+mkdir -p ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
+ls
+cd rpmbuild
+mkdir rpmbuild
+ls
+cd rpmbuild
+ls
+ mkdir -p ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
+ls
+mkdir BUILD
+ls
+mkdir {RPMS,SOURCES,SPECS,SRPMS}
+ls
+cd ..
+cd home
+cd chakshita/
+ls
+cd rpmbuild
+ls
+cd SPECS
+LS
+ls
+vim popup.spec
+cd ..
+cd tmp
+cd rpmbuild/
+ls
+cd SPECS
+ls
+vim popup.spec
+cd ..
+cd home
+cd chakshita/
+cd rpmbuild/
+ls
+cd SPECS
+ls
+vim popup.spec
+cd ../../..
+cd //
+cd ..
+exit

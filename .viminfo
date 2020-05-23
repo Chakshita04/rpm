@@ -15,17 +15,21 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1589519474,,"wq!"
+|2,0,1590135346,,"wq!"
+:q
+|2,0,1590134917,,"q"
+:q!
+|2,0,1589811767,,"q!"
+:q1
+|2,0,1589748366,,"q1"
+:wq1
+|2,0,1589742998,,"wq1"
 :Wq!
 |2,0,1589487509,,"Wq!"
-:wq1
-|2,0,1589487470,,"wq1"
-:q
-|2,0,1589460174,,"q"
 
 # Search String History (newest to oldest):
 ? @$
-|2,1,1589460168,,"@$"
+|2,1,1590134910,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -34,235 +38,335 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
+""0	CHAR	0
 	l
-|3,1,36,0,1,0,1589485847,"l"
+|3,1,0,0,1,0,1590134910,"l"
+"-	CHAR	0
+	l
+|3,0,36,0,1,0,1589485847,"l"
 
 # File marks:
-'0  48  1  ~/rpmbuild/SPECS/hello.spec
-|4,48,48,1,1589519474,"~/rpmbuild/SPECS/hello.spec"
-'1  27  18  ~/rpmbuild/SPECS/hello-world.spec
-|4,49,27,18,1589519462,"~/rpmbuild/SPECS/hello-world.spec"
-'2  7  0  ~/hello-world-1.0/Makefile
-|4,50,7,0,1589519400,"~/hello-world-1.0/Makefile"
-'3  9  53  ~/hello-world-1.0/Makefile
-|4,51,9,53,1589519316,"~/hello-world-1.0/Makefile"
-'4  9  53  ~/hello-world-1.0/Makefile
-|4,52,9,53,1589519316,"~/hello-world-1.0/Makefile"
-'5  1  54  ~/hello-world-1.0/Makefile
-|4,53,1,54,1589519153,"~/hello-world-1.0/Makefile"
-'6  4  9  ~/hello-world-1.0/Makefile
-|4,54,4,9,1589519153,"~/hello-world-1.0/Makefile"
-'7  1  54  ~/hello-world-1.0/Makefile
-|4,55,1,54,1589519153,"~/hello-world-1.0/Makefile"
-'8  4  9  ~/hello-world-1.0/Makefile
-|4,56,4,9,1589519153,"~/hello-world-1.0/Makefile"
-'9  1  66  ~/hello-world-1.0/Makefile
-|4,57,1,66,1589518800,"~/hello-world-1.0/Makefile"
+'0  36  20  ~/rpmbuild/SPECS/popup.spec
+|4,48,36,20,1590135346,"~/rpmbuild/SPECS/popup.spec"
+'1  18  11  ~/rpmbuild/SPECS/popup.spec
+|4,49,18,11,1590134967,"~/rpmbuild/SPECS/popup.spec"
+'2  18  11  ~/rpmbuild/SPECS/popup.spec
+|4,50,18,11,1590134967,"~/rpmbuild/SPECS/popup.spec"
+'3  8  1  ~/rpmbuild
+|4,51,8,1,1590134917,"~/rpmbuild"
+'4  1  0  ~/popup-1.0/Makefile
+|4,52,1,0,1590134353,"~/popup-1.0/Makefile"
+'5  27  0  ~/popup-1.0/main.c
+|4,53,27,0,1590134337,"~/popup-1.0/main.c"
+'6  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,54,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
+'7  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,55,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
+'8  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,56,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
+'9  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,57,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
 
 # Jumplist (newest first):
--'  48  1  ~/rpmbuild/SPECS/hello.spec
-|4,39,48,1,1589519474,"~/rpmbuild/SPECS/hello.spec"
--'  27  18  ~/rpmbuild/SPECS/hello-world.spec
-|4,39,27,18,1589519462,"~/rpmbuild/SPECS/hello-world.spec"
--'  27  18  ~/rpmbuild/SPECS/hello-world.spec
-|4,39,27,18,1589519462,"~/rpmbuild/SPECS/hello-world.spec"
--'  7  0  ~/hello-world-1.0/Makefile
-|4,39,7,0,1589519400,"~/hello-world-1.0/Makefile"
--'  7  0  ~/hello-world-1.0/Makefile
-|4,39,7,0,1589519400,"~/hello-world-1.0/Makefile"
--'  7  0  ~/hello-world-1.0/Makefile
-|4,39,7,0,1589519400,"~/hello-world-1.0/Makefile"
--'  7  0  ~/hello-world-1.0/Makefile
-|4,39,7,0,1589519400,"~/hello-world-1.0/Makefile"
--'  9  53  ~/hello-world-1.0/Makefile
-|4,39,9,53,1589519387,"~/hello-world-1.0/Makefile"
--'  9  53  ~/hello-world-1.0/Makefile
-|4,39,9,53,1589519387,"~/hello-world-1.0/Makefile"
--'  9  53  ~/hello-world-1.0/Makefile
-|4,39,9,53,1589519387,"~/hello-world-1.0/Makefile"
--'  9  53  ~/hello-world-1.0/Makefile
-|4,39,9,53,1589519387,"~/hello-world-1.0/Makefile"
--'  9  53  ~/hello-world-1.0/Makefile
-|4,39,9,53,1589519316,"~/hello-world-1.0/Makefile"
--'  9  53  ~/hello-world-1.0/Makefile
-|4,39,9,53,1589519316,"~/hello-world-1.0/Makefile"
--'  9  53  ~/hello-world-1.0/Makefile
-|4,39,9,53,1589519316,"~/hello-world-1.0/Makefile"
--'  9  53  ~/hello-world-1.0/Makefile
-|4,39,9,53,1589519316,"~/hello-world-1.0/Makefile"
--'  1  54  ~/hello-world-1.0/Makefile
-|4,39,1,54,1589519300,"~/hello-world-1.0/Makefile"
--'  1  54  ~/hello-world-1.0/Makefile
-|4,39,1,54,1589519300,"~/hello-world-1.0/Makefile"
--'  1  54  ~/hello-world-1.0/Makefile
-|4,39,1,54,1589519300,"~/hello-world-1.0/Makefile"
--'  1  54  ~/hello-world-1.0/Makefile
-|4,39,1,54,1589519300,"~/hello-world-1.0/Makefile"
--'  1  54  ~/hello-world-1.0/Makefile
-|4,39,1,54,1589519300,"~/hello-world-1.0/Makefile"
--'  1  54  ~/hello-world-1.0/Makefile
-|4,39,1,54,1589519300,"~/hello-world-1.0/Makefile"
--'  1  54  ~/hello-world-1.0/Makefile
-|4,39,1,54,1589519300,"~/hello-world-1.0/Makefile"
--'  1  54  ~/hello-world-1.0/Makefile
-|4,39,1,54,1589519300,"~/hello-world-1.0/Makefile"
--'  4  9  ~/hello-world-1.0/Makefile
-|4,39,4,9,1589519153,"~/hello-world-1.0/Makefile"
--'  4  9  ~/hello-world-1.0/Makefile
-|4,39,4,9,1589519153,"~/hello-world-1.0/Makefile"
--'  4  9  ~/hello-world-1.0/Makefile
-|4,39,4,9,1589519153,"~/hello-world-1.0/Makefile"
--'  4  9  ~/hello-world-1.0/Makefile
-|4,39,4,9,1589519153,"~/hello-world-1.0/Makefile"
--'  4  9  ~/hello-world-1.0/Makefile
-|4,39,4,9,1589519153,"~/hello-world-1.0/Makefile"
--'  4  9  ~/hello-world-1.0/Makefile
-|4,39,4,9,1589519153,"~/hello-world-1.0/Makefile"
--'  4  9  ~/hello-world-1.0/Makefile
-|4,39,4,9,1589519153,"~/hello-world-1.0/Makefile"
--'  4  9  ~/hello-world-1.0/Makefile
-|4,39,4,9,1589519153,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589519102,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589519102,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589519102,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589519102,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589519102,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589519102,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589519102,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589519102,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589518800,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589518800,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589518800,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589518800,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589487511,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589487511,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589487511,"~/hello-world-1.0/Makefile"
--'  5  5  ~/hello-world-1.0/Makefile
-|4,39,5,5,1589487511,"~/hello-world-1.0/Makefile"
--'  5  8  ~/hello-world-1.0/Makefile
-|4,39,5,8,1589487473,"~/hello-world-1.0/Makefile"
--'  5  8  ~/hello-world-1.0/Makefile
-|4,39,5,8,1589487473,"~/hello-world-1.0/Makefile"
--'  5  8  ~/hello-world-1.0/Makefile
-|4,39,5,8,1589487473,"~/hello-world-1.0/Makefile"
--'  5  8  ~/hello-world-1.0/Makefile
-|4,39,5,8,1589487473,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487444,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487444,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487444,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487444,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487444,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487444,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487444,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487444,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487444,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487444,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487444,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487444,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487369,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487369,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487369,"~/hello-world-1.0/Makefile"
--'  4  0  ~/hello-world-1.0/Makefile
-|4,39,4,0,1589487369,"~/hello-world-1.0/Makefile"
--'  5  15  ~/hello-world-1.0/Makefile
-|4,39,5,15,1589487355,"~/hello-world-1.0/Makefile"
--'  5  15  ~/hello-world-1.0/Makefile
-|4,39,5,15,1589487355,"~/hello-world-1.0/Makefile"
--'  5  15  ~/hello-world-1.0/Makefile
-|4,39,5,15,1589487355,"~/hello-world-1.0/Makefile"
--'  5  15  ~/hello-world-1.0/Makefile
-|4,39,5,15,1589487355,"~/hello-world-1.0/Makefile"
--'  5  15  ~/hello-world-1.0/Makefile
-|4,39,5,15,1589486750,"~/hello-world-1.0/Makefile"
--'  5  15  ~/hello-world-1.0/Makefile
-|4,39,5,15,1589486750,"~/hello-world-1.0/Makefile"
--'  5  15  ~/hello-world-1.0/Makefile
-|4,39,5,15,1589486750,"~/hello-world-1.0/Makefile"
--'  5  15  ~/hello-world-1.0/Makefile
-|4,39,5,15,1589486750,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  1  0  ~/hello-world-1.0/Makefile
-|4,39,1,0,1589486741,"~/hello-world-1.0/Makefile"
--'  6  0  ~/hello-world-1.0/cello.c
-|4,39,6,0,1589486724,"~/hello-world-1.0/cello.c"
+-'  36  20  ~/rpmbuild/SPECS/popup.spec
+|4,39,36,20,1590135346,"~/rpmbuild/SPECS/popup.spec"
+-'  18  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,11,1590135289,"~/rpmbuild/SPECS/popup.spec"
+-'  18  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,11,1590134967,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590134934,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590134934,"~/rpmbuild/SPECS/popup.spec"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  8  1  ~/rpmbuild
+|4,39,8,1,1590134917,"~/rpmbuild"
+-'  1  0  ~/popup-1.0/Makefile
+|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
+-'  1  0  ~/popup-1.0/Makefile
+|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
+-'  1  0  ~/popup-1.0/Makefile
+|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
+-'  1  0  ~/popup-1.0/Makefile
+|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
+-'  1  0  ~/popup-1.0/Makefile
+|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
+-'  1  0  ~/popup-1.0/Makefile
+|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
+-'  1  0  ~/popup-1.0/Makefile
+|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
+-'  1  0  ~/popup-1.0/Makefile
+|4,39,1,0,1590134353,"~/popup-1.0/Makefile"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  27  0  ~/popup-1.0/main.c
+|4,39,27,0,1590134337,"~/popup-1.0/main.c"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
+-'  6  0  ~/rpmbuild/SPECS/popup.spec
+|4,39,6,0,1590088502,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590088483,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
+-'  33  11  ~/rpmbuild/SPECS/popup.spec
+|4,39,33,11,1590087660,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  18  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,18,8,1590087624,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  19  8  ~/rpmbuild/SPECS/popup.spec
+|4,39,19,8,1590086658,"~/rpmbuild/SPECS/popup.spec"
+-'  15  27  ~/rpmbuild/SPECS/popup.spec
+|4,39,15,27,1590085580,"~/rpmbuild/SPECS/popup.spec"
+-'  16  27  ~/rpmbuild/SPECS/popup.spec
+|4,39,16,27,1590085580,"~/rpmbuild/SPECS/popup.spec"
+-'  15  27  ~/rpmbuild/SPECS/popup.spec
+|4,39,15,27,1590085580,"~/rpmbuild/SPECS/popup.spec"
+-'  16  27  ~/rpmbuild/SPECS/popup.spec
+|4,39,16,27,1590085580,"~/rpmbuild/SPECS/popup.spec"
+-'  15  27  ~/rpmbuild/SPECS/popup.spec
+|4,39,15,27,1590085580,"~/rpmbuild/SPECS/popup.spec"
+-'  16  27  ~/rpmbuild/SPECS/popup.spec
+|4,39,16,27,1590085580,"~/rpmbuild/SPECS/popup.spec"
+-'  15  27  ~/rpmbuild/SPECS/popup.spec
+|4,39,15,27,1590085580,"~/rpmbuild/SPECS/popup.spec"
 
 # History of marks within files (newest to oldest):
+
+> ~/rpmbuild/SPECS/popup.spec
+	*	1590135344	0
+	"	36	20
+	^	36	21
+	.	36	20
+	+	2	20
+	+	6	16
+	+	5	29
+	+	8	50
+	+	31	0
+	+	16	5
+	+	18	8
+	+	20	6
+	+	21	0
+	+	25	19
+	+	26	0
+	+	41	0
+	+	28	19
+	+	39	36
+	+	40	19
+	+	18	9
+	+	32	0
+	+	33	0
+	+	15	27
+	+	18	9
+	+	19	0
+	+	6	0
+	+	37	0
+	+	6	0
+	+	18	11
+	+	36	20
+
+> ~/popup-1.0/Makefile
+	*	1590134350	0
+	"	1	0
+
+> ~/popup-1.0/main.c
+	*	1590134336	0
+	"	27	0
+	^	27	0
+	.	1	0
+	+	1	0
+
+> /tmp/rpmbuild/SPECS/popup.spec
+	*	1589998382	0
+	"	11	0
+	^	15	28
+	.	15	27
+	+	24	18
+	+	25	0
+	+	40	20
+	+	34	5
+	+	35	5
+	+	34	5
+	+	35	5
+	+	9	15
+	+	8	51
+	+	34	16
+	+	34	0
+	+	15	27
+
+> ~/rpmbuild/SPECS/pop.spec
+	*	1589913021	0
+	"	20	0
+	^	40	0
+	.	39	0
+	+	1	20
+	+	1	6
+	+	1	18
+	+	1	82
+	+	23	19
+	+	39	0
+
+> ~/rpmbuild/BUILD/popup-1.0.0/debugsource.list
+	*	1589825322	0
+	"	1	0
+
+> /.rpmmacros
+	*	1589811766	0
+	"	2	0
+	^	1	0
+	.	2	0
+	+	1	0
+	+	2	23
+	+	2	0
+
+> /chakshita/.rpmmacros
+	*	1589748366	0
+	"	2	0
+	^	2	0
+	.	1	0
+	+	1	0
+	+	3	23
+	+	2	9
+	+	3	29
+	+	1	0
 
 > ~/rpmbuild/SPECS/hello.spec
 	*	1589519472	0
