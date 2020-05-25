@@ -34,8 +34,8 @@ user_pref("browser.newtabpage.activity-stream.impressionId", "{4135aaf7-deb4-461
 user_pref("browser.newtabpage.storageVersion", 1);
 user_pref("browser.pageActions.persistedActions", "{\"version\":1,\"ids\":[\"bookmark\",\"pinTab\",\"bookmarkSeparator\",\"copyURL\",\"emailLink\",\"addSearchEngine\",\"sendToDevice\",\"pocket\",\"screenshots_mozilla_org\"],\"idsInUrlbar\":[\"pocket\",\"bookmark\"]}");
 user_pref("browser.pagethumbnails.storage_version", 3);
-user_pref("browser.safebrowsing.provider.google4.lastupdatetime", "1590437583611");
-user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1590439410611");
+user_pref("browser.safebrowsing.provider.google4.lastupdatetime", "1590439414267");
+user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1590441211267");
 user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1590439387861");
 user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1590442987861");
 user_pref("browser.search.region", "IN");
