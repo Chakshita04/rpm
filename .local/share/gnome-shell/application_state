@@ -1,9 +1,8 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="firefox.desktop" score="5" last-seen="1589398636"/>
-    <application id="org.gnome.Software.desktop" score="0.25" last-seen="1589519341"/>
-    <application id="org.gnome.Terminal.desktop" score="15623.953125" last-seen="1589794456"/>
-    <application id="org.gnome.gedit.desktop" score="10.75" last-seen="1589519384"/>
+    <application id="firefox.desktop" score="4852" last-seen="1590438813"/>
+    <application id="org.gnome.Nautilus.desktop" score="1" last-seen="1590393352"/>
+    <application id="org.gnome.Terminal.desktop" score="24155.953125" last-seen="1590438590"/>
   </context>
 </application-state>

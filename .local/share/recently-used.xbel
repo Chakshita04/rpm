@@ -63,4 +63,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///tmp/mozilla_chakshita0/5bc536cedeb6e6218b5077d26b8e22da2b299957c92cf72af378ec71f94c6aed-other.xml.gz" added="2020-05-24T20:21:56Z" modified="2020-05-24T20:21:56Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/gzip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-05-24T20:21:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
