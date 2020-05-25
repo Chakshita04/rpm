@@ -1,0 +1,7 @@
+/home/chakshita/CMakeFiles/install/strip.dir
+/home/chakshita/CMakeFiles/install/local.dir
+/home/chakshita/CMakeFiles/edit_cache.dir
+/home/chakshita/CMakeFiles/myapp.dir
+/home/chakshita/CMakeFiles/rebuild_cache.dir
+/home/chakshita/CMakeFiles/list_install_components.dir
+/home/chakshita/CMakeFiles/install.dir
