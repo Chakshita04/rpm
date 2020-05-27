@@ -11,6 +11,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-chakshita
 
 BuildRequires: gcc
 BuildRequires: meson
+BuildRequires: make
 
 #BuildRequires: bundle.h
 BuildArch:  noarch
