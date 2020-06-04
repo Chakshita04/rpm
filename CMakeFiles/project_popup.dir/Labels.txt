@@ -1,0 +1,13 @@
+# Target labels
+ project_popup
+# Source files and their labels
+/home/chakshita/CMakeFiles/project_popup
+/home/chakshita/CMakeFiles/project_popup.rule
+/home/chakshita/CMakeFiles/project_popup-complete.rule
+/home/chakshita/popup-1.0.0-1/src/project_popup-stamp/project_popup-install.rule
+/home/chakshita/popup-1.0.0-1/src/project_popup-stamp/project_popup-mkdir.rule
+/home/chakshita/popup-1.0.0-1/src/project_popup-stamp/project_popup-download.rule
+/home/chakshita/popup-1.0.0-1/src/project_popup-stamp/project_popup-update.rule
+/home/chakshita/popup-1.0.0-1/src/project_popup-stamp/project_popup-patch.rule
+/home/chakshita/popup-1.0.0-1/src/project_popup-stamp/project_popup-configure.rule
+/home/chakshita/popup-1.0.0-1/src/project_popup-stamp/project_popup-build.rule

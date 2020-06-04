@@ -1,0 +1,13 @@
+# Target labels
+ project
+# Source files and their labels
+/home/chakshita/CMakeFiles/project
+/home/chakshita/CMakeFiles/project.rule
+/home/chakshita/CMakeFiles/project-complete.rule
+/home/chakshita/popup-1.0.0-1/src/project-stamp/project-install.rule
+/home/chakshita/popup-1.0.0-1/src/project-stamp/project-mkdir.rule
+/home/chakshita/popup-1.0.0-1/src/project-stamp/project-download.rule
+/home/chakshita/popup-1.0.0-1/src/project-stamp/project-update.rule
+/home/chakshita/popup-1.0.0-1/src/project-stamp/project-patch.rule
+/home/chakshita/popup-1.0.0-1/src/project-stamp/project-configure.rule
+/home/chakshita/popup-1.0.0-1/src/project-stamp/project-build.rule

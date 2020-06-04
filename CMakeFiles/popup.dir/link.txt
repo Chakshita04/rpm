@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpopup.a  CMakeFiles/popup.dir/main.c.o
+/usr/bin/ranlib libpopup.a

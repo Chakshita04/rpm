@@ -1,8 +1,6 @@
 #include<stdio.h>
-#include "/home/chakshita/bundle.h"
-#include "/home/chakshita/argv-array.h"
-#include" /home/chakshita/cache.h"
-#include" /home/chakshita/git-compat-util.h"
+#include "bundle.h"
+#include <openssl/ssl.h>
 int main()
 {
 

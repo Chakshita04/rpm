@@ -56,7 +56,7 @@ const char *argv_array_pushf(struct argv_array *, const char *fmt, ...);
  * should be a list of `const char *` strings, terminated by a NULL
  * argument.
  */
-LAST_ARG_MUST_BE_NULL;
+LAST_ARG_MUST_BE_NULL
 void argv_array_pushl(struct argv_array *, ...);
 
 /* Push a null-terminated array of strings onto the end of the array. */

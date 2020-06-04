@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/chakshita/CMakeFiles/project"
+		},
+		{
+			"file" : "/home/chakshita/CMakeFiles/project.rule"
+		},
+		{
+			"file" : "/home/chakshita/CMakeFiles/project-complete.rule"
+		},
+		{
+			"file" : "/home/chakshita/popup-1.0.0-1/src/project-stamp/project-install.rule"
+		},
+		{
+			"file" : "/home/chakshita/popup-1.0.0-1/src/project-stamp/project-mkdir.rule"
+		},
+		{
+			"file" : "/home/chakshita/popup-1.0.0-1/src/project-stamp/project-download.rule"
+		},
+		{
+			"file" : "/home/chakshita/popup-1.0.0-1/src/project-stamp/project-update.rule"
+		},
+		{
+			"file" : "/home/chakshita/popup-1.0.0-1/src/project-stamp/project-patch.rule"
+		},
+		{
+			"file" : "/home/chakshita/popup-1.0.0-1/src/project-stamp/project-configure.rule"
+		},
+		{
+			"file" : "/home/chakshita/popup-1.0.0-1/src/project-stamp/project-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"project"
+		],
+		"name" : "project"
+	}
+}

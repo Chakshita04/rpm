@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/pop.dir/main.c.o  -o pop 
