@@ -31,8 +31,9 @@ configure_file(
 
 include_directories("$PROJECT_BINARY_DIR}")
 include_directories("${PROJECT_SOURCE_DIR}/popup")
-add_library(popup main.c)
-#add_executable(build  main.c)
+add_library(pops main.c)
+add_executable(cmake-good  main.c)
+target_link_libraries(cmake-good PRIVATE popup)
 
 include_directories(test)
 install(TARGETS pop DESTINATION bin)

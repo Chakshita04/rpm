@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/cmake-good.dir/main.c.o  -o cmake-good  -lpopup 

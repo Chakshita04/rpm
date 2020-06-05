@@ -73,9 +73,10 @@ CMAKE_BINARY_DIR = /home/chakshita
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/project_popup.dir/all
 all: CMakeFiles/pop.dir/all
-all: CMakeFiles/popup.dir/all
+all: CMakeFiles/project_popup.dir/all
+all: CMakeFiles/pops.dir/all
+all: CMakeFiles/cmake-good.dir/all
 
 .PHONY : all
 
@@ -85,38 +86,12 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/project_popup.dir/clean
 clean: CMakeFiles/pop.dir/clean
-clean: CMakeFiles/popup.dir/clean
+clean: CMakeFiles/project_popup.dir/clean
+clean: CMakeFiles/pops.dir/clean
+clean: CMakeFiles/cmake-good.dir/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/project_popup.dir
-
-# All Build rule for target.
-CMakeFiles/project_popup.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_popup.dir/build.make CMakeFiles/project_popup.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_popup.dir/build.make CMakeFiles/project_popup.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chakshita/CMakeFiles --progress-num=5,6,7,8,9,10,11,12 "Built target project_popup"
-.PHONY : CMakeFiles/project_popup.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/project_popup.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakshita/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/project_popup.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakshita/CMakeFiles 0
-.PHONY : CMakeFiles/project_popup.dir/rule
-
-# Convenience name for target.
-project_popup: CMakeFiles/project_popup.dir/rule
-
-.PHONY : project_popup
-
-# clean rule for target.
-CMakeFiles/project_popup.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_popup.dir/build.make CMakeFiles/project_popup.dir/clean
-.PHONY : CMakeFiles/project_popup.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/pop.dir
@@ -125,7 +100,7 @@ CMakeFiles/project_popup.dir/clean:
 CMakeFiles/pop.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pop.dir/build.make CMakeFiles/pop.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pop.dir/build.make CMakeFiles/pop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chakshita/CMakeFiles --progress-num=1,2 "Built target pop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chakshita/CMakeFiles --progress-num=3,4 "Built target pop"
 .PHONY : CMakeFiles/pop.dir/all
 
 # Build rule for subdir invocation for target.
@@ -146,31 +121,85 @@ CMakeFiles/pop.dir/clean:
 .PHONY : CMakeFiles/pop.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/popup.dir
+# Target rules for target CMakeFiles/project_popup.dir
 
 # All Build rule for target.
-CMakeFiles/popup.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/popup.dir/build.make CMakeFiles/popup.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/popup.dir/build.make CMakeFiles/popup.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chakshita/CMakeFiles --progress-num=3,4 "Built target popup"
-.PHONY : CMakeFiles/popup.dir/all
+CMakeFiles/project_popup.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_popup.dir/build.make CMakeFiles/project_popup.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_popup.dir/build.make CMakeFiles/project_popup.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chakshita/CMakeFiles --progress-num=7,8,9,10,11,12,13,14 "Built target project_popup"
+.PHONY : CMakeFiles/project_popup.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/popup.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakshita/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/popup.dir/all
+CMakeFiles/project_popup.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakshita/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/project_popup.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakshita/CMakeFiles 0
-.PHONY : CMakeFiles/popup.dir/rule
+.PHONY : CMakeFiles/project_popup.dir/rule
 
 # Convenience name for target.
-popup: CMakeFiles/popup.dir/rule
+project_popup: CMakeFiles/project_popup.dir/rule
 
-.PHONY : popup
+.PHONY : project_popup
 
 # clean rule for target.
-CMakeFiles/popup.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/popup.dir/build.make CMakeFiles/popup.dir/clean
-.PHONY : CMakeFiles/popup.dir/clean
+CMakeFiles/project_popup.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_popup.dir/build.make CMakeFiles/project_popup.dir/clean
+.PHONY : CMakeFiles/project_popup.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pops.dir
+
+# All Build rule for target.
+CMakeFiles/pops.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pops.dir/build.make CMakeFiles/pops.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pops.dir/build.make CMakeFiles/pops.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chakshita/CMakeFiles --progress-num=5,6 "Built target pops"
+.PHONY : CMakeFiles/pops.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pops.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakshita/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pops.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakshita/CMakeFiles 0
+.PHONY : CMakeFiles/pops.dir/rule
+
+# Convenience name for target.
+pops: CMakeFiles/pops.dir/rule
+
+.PHONY : pops
+
+# clean rule for target.
+CMakeFiles/pops.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pops.dir/build.make CMakeFiles/pops.dir/clean
+.PHONY : CMakeFiles/pops.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cmake-good.dir
+
+# All Build rule for target.
+CMakeFiles/cmake-good.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmake-good.dir/build.make CMakeFiles/cmake-good.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmake-good.dir/build.make CMakeFiles/cmake-good.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chakshita/CMakeFiles --progress-num=1,2 "Built target cmake-good"
+.PHONY : CMakeFiles/cmake-good.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cmake-good.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakshita/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cmake-good.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakshita/CMakeFiles 0
+.PHONY : CMakeFiles/cmake-good.dir/rule
+
+# Convenience name for target.
+cmake-good: CMakeFiles/cmake-good.dir/rule
+
+.PHONY : cmake-good
+
+# clean rule for target.
+CMakeFiles/cmake-good.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmake-good.dir/build.make CMakeFiles/cmake-good.dir/clean
+.PHONY : CMakeFiles/cmake-good.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -13,7 +13,7 @@ riot.im:HSTS	0	18381	1619726569730,1,1,2
 developer.fedoraproject.org:HSTS	0	18407	1621972334621,1,1,2
 a16180790160.cdn.optimizely.com:HSTS	0	18406	1606114965904,1,0,2
 redhat.demdex.net:HSTS	0	18406	1621883912831,1,1,2
-firefox.settings.services.mozilla.com:HSTS	15	18417	1622799144003,1,0,2
+firefox.settings.services.mozilla.com:HSTS	16	18418	1622870585765,1,0,2
 src.fedoraproject.org:HSTS	0	18387	1620243499575,1,1,2
 www.googletagmanager.com:HSTS	2	18407	1621953211858,1,1,2
 stats.g.doubleclick.net:HSTS	1	18407	1601314969750,1,1,2
@@ -24,9 +24,9 @@ getfedora.org:HSTS	0	18381	1619726569219,1,1,2
 arm.fedoraproject.org:HSTS	0	18381	1619726568681,1,1,2
 cdn.ampproject.org:HSTS	0	18406	1621881773558,1,1,2
 cdn.optimizely.com:HSTS	0	18406	1606114957978,1,0,2
-incoming.telemetry.mozilla.org:HSTS	13	18416	1606980047925,1,0,2
+incoming.telemetry.mozilla.org:HSTS	14	18418	1607102742776,1,0,2
 s1795.t.eloqua.com:HSTS	0	18406	1621883917475,1,0,2
-services.addons.mozilla.org:HPKP	11	18416	1596393921884,1,1,WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=
+services.addons.mozilla.org:HPKP	12	18418	1596518464794,1,1,WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=
 docs.fedoraproject.org:HSTS	0	18406	1621883900794,1,1,2
 www.google.co.in:HSTS	0	18381	1619726594900,1,0,2
 syndication.twitter.com:HSTS	0	18406	2221485684387,1,0,2
@@ -36,7 +36,7 @@ avatars1.githubusercontent.com:HSTS	1	18417	1621993958127,1,0,2
 api.github.com:HSTS	0	18407	1621972093234,1,1,2
 github.com:HSTS	3	18417	1621972092198,1,1,2
 img.en25.com:HSTS	0	18406	1621883916028,1,1,2
-normandy.cdn.mozilla.net:HSTS	15	18416	1622744478575,1,0,2
+normandy.cdn.mozilla.net:HSTS	17	18418	1622871062990,1,0,2
 ajax.cloudflare.com:HSTS	0	18406	1606125709194,1,1,2
 www.facebook.com:HSTS	1	18407	1621953213808,1,1,2
 duckduckgo.com:HSTS	0	18406	1621881709445,1,0,2
@@ -54,13 +54,13 @@ secure.p01.eloqua.com:HSTS	0	18406	1621883915322,1,0,2
 dnacdn.net:HSTS	0	18406	1621883892087,1,0,2
 location.services.mozilla.com:HSTS	0	18381	1619726563431,1,1,2
 spins.fedoraproject.org:HSTS	0	18381	1619726568745,1,1,2
-aus5.mozilla.org:HSTS	11	18416	1622745922678,1,0,2
+aus5.mozilla.org:HSTS	12	18418	1622870465665,1,0,2
 ag.gbc.criteo.com:HSTS	0	18406	1621883888485,1,0,2
-blocklists.settings.services.mozilla.com:HSTS	11	18416	1622746041426,1,0,2
+blocklists.settings.services.mozilla.com:HSTS	12	18418	1622870583510,1,0,2
 start.fedoraproject.org:HSTS	4	18407	1621949403047,1,1,2
 serverfault.com:HSTS	0	18406	1592937722086,1,0,2
 www.google.com:HSTS	6	18416	1622722014606,1,0,2
-services.addons.mozilla.org:HSTS	11	18416	1622745921881,1,0,2
+services.addons.mozilla.org:HSTS	12	18418	1622870464791,1,0,2
 ma.redhat.com:HSTS	0	18406	1621883915674,1,0,2
 secure.eloqua.com:HSTS	0	18406	1621883915948,1,0,2
 discordapp.com:HSTS	0	18381	1619726569486,1,1,2
@@ -68,7 +68,7 @@ www.covermymeds.com:HSTS	0	18407	1621953211881,1,0,2
 miro.medium.com:HSTS	0	18406	1605898981100,1,1,2
 creativecommons.org:HSTS	0	18381	1619726569122,1,1,2
 apps.fedoraproject.org:HSTS	1	18407	1621953225976,1,1,2
-shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	16	18417	1622798838564,1,1,2
+shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	16	18417	1622831219649,1,1,2
 ogs.google.com:HSTS	2	18416	1622721997827,1,0,2
 dpm.demdex.net:HSTS	0	18406	1621883915751,1,1,2
 gem.gbc.criteo.com:HSTS	0	18406	1621883888483,1,0,2
